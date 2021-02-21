@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+}
+body {
+    background: url('../images/MR_COVER_2.png');
+    
+}
+#root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    min-width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0 0 0;
+}
+.titlebox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+h1, h2 {
+    font-family: 'Shrikhand', cursive;
+    color: white;
+    margin: 0;
+}
+h1 {
+    font-size: 72px;
+    text-shadow: 5px 5px #FF0099;
+}
+h2 {
+    font-size: 36px;
+}
+#logo {
+    max-height: 200px;
+}

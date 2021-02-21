@@ -36,6 +36,13 @@ h1 {
 h2 {
     font-size: 36px;
 }
+h3 {
+    color: #990066;
+    font-size: 24px;
+}
+h3, h4, p {
+    margin: 10px;
+}
 #logo {
     max-height: 200px;
 }
@@ -50,4 +57,39 @@ nav {
     font-size: 36px;
     color: #FE3399;
     font-weight: bold;
+}
+main {
+    min-width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.box {
+    height: 400px;
+    width: 600px;
+    background: #CC6495;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: flex-start;
+}
+.images {
+    display: flex;
+    max-width: 80%;
+    max-height: 70%;
+    align-items: center;
+    justify-content: center;
+}
+.images img {
+    max-height: 800%;
+    max-width: 40%;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
 }

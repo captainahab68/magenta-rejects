@@ -39,3 +39,15 @@ h2 {
 #logo {
     max-height: 200px;
 }
+nav {
+    min-width: 70%;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.link {
+    font-size: 36px;
+    color: #FE3399;
+    font-weight: bold;
+}

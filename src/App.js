@@ -1,9 +1,12 @@
 import React from 'react';
-
+import { Switch, Route } from 'react-router-dom';
+import Home from './pages/Home'
 function App() {
   return (
-    <div className="container">
-      <h1>Hello World</h1>
+    <div>
+      <Switch>
+        <Route path='/' component={ Home }/>
+      </Switch>
     </div>
   );
 };

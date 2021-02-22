@@ -19,7 +19,7 @@ class Home extends React.Component {
             <Link className="link">lux pacifica</Link>
             <Link className="link">s.a. ribble</Link>
             <Link className="link">collabs</Link>
-            <Link className="link">blog</Link>
+            <Link className="link">store</Link>
           </nav>
           <main>
               <section className="shop">

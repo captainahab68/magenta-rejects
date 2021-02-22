@@ -40,6 +40,9 @@ h3 {
     color: #990066;
     font-size: 24px;
 }
+h4 {
+    color: #990066;
+}
 h3, h4, p {
     margin: 10px;
 }
@@ -51,10 +54,10 @@ nav {
     margin: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .link {
-    font-size: 36px;
+    font-size: 28px;
     color: #FE3399;
     font-weight: bold;
 }
@@ -77,7 +80,7 @@ section {
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 .images {
     display: flex;
@@ -92,4 +95,8 @@ section {
     margin: 10px;
     border-radius: 5px;
     border: 2px solid white;
+}
+.box p {
+    color: white;
+    font-size: 20px;
 }
